@@ -1,0 +1,52 @@
+body {
+    background-color: orange;
+    color: black;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+nav {
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    height: auto;
+}
+input{
+    margin-top: 10px;
+}
+
+label{
+    font-size: 1.5em;
+    padding-right: 15px;
+    font-family: fantasy;
+}
+
+label:hover{
+    background-color: orangered;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: fantasy;
+}
+h3{
+    font-family: fantasy;
+}
+
+#list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+

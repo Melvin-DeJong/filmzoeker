@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eindopdracht week 2: filmzoeker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer type="text/javascript" src="movies.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+    <h1>Filmzoeker</h1>
+    <h3>Kies een categorie:</h3>
+    </header>
+    <nav>
+        
+      <label><input type="radio" id="new" name="filter" value="new"/>Laatste films, 2014 of nieuwer</label>
+
+      <label><input type="radio" id="avenger" name="filter" value="avenger"/>Avenger</label>
+
+      <label><input type="radio" id="xmen" name="filter" value="xmen"/>X-Men</label>
+      
+      <label><input type="radio" id="princess" name="filter" value="princess"/>Princess</label>
+
+      <label><input type="radio" id="batman" name="filter" value="batman"/>Batman</label>
+  </nav>
+  <main>
+      <ul id="list"></ul>
+  </main>
+  </body>
+</html>
